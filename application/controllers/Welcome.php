@@ -1,6 +1,8 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-
+/**
+ * @property CI_Loader $load
+ */
 class Welcome extends CI_Controller {
 
 	/**
@@ -27,5 +29,5 @@ class Welcome extends CI_Controller {
 	public function Mensaje()
 	{
 		$this->load->view('welcome_message');
-	}
+	} 
 }
